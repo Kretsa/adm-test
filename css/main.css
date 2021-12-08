@@ -74,7 +74,7 @@ h4 {
 }
 
 .wrapper_header .header .contacts .phone p a {
-  color: #cecece;
+  color: #000000;
   font-size: 16px;
   font-family: "open sans";
   font-weight: 300;
@@ -83,6 +83,14 @@ h4 {
 .wrapper_header .header .contacts .phone p a:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.wrapper_header .header .contacts .logo {
+  max-width: 130px;
+}
+
+.wrapper_header .header .contacts .logo img {
+  width: 100%;
 }
 
 .wrapper_header .header .wrapperTraineeship {
@@ -938,7 +946,7 @@ h4 {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-  .wrapper_header .header .contacts img {
+  .wrapper_header .header .contacts .logo img {
     width: 100px;
   }
   .wrapper_header .header .wrapperTraineeship .traineeship {
@@ -950,9 +958,12 @@ h4 {
   }
   .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info h3 {
     font-size: 24px;
+    padding-top: 40px;
+    margin-bottom: 10px;
   }
   .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info h4 {
     font-size: 16px;
+    margin-bottom: 40px;
   }
   .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info p {
     font-size: 14px;
@@ -967,18 +978,27 @@ h4 {
     height: 28px;
     font-size: 12px;
   }
+  .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info .first_text {
+    margin-bottom: 20px;
+  }
+  .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info .second_text {
+    margin-bottom: 40px;
+  }
+  .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info div {
+    padding-bottom: 40px;
+  }
   .wrapper_vacancies {
     padding: 0 15px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
   .wrapper_vacancies .topic .topic_first {
-    font-size: 20px;
+    font-size: 24px;
     margin: 80px 0 20px 0;
     color: #393939;
   }
   .wrapper_vacancies .topic .topic_second {
-    font-size: 17px;
+    font-size: 16px;
     margin-bottom: 40px;
   }
   .wrapper_vacancies .topic p {
@@ -996,11 +1016,17 @@ h4 {
     font-size: 16px;
     max-width: 200px;
   }
+  .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box:nth-child(6) {
+    margin-bottom: 0;
+  }
   .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box:nth-child(6) p {
     max-width: 218px;
   }
   .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box:nth-child(6) .for_border {
-    top: 120px;
+    top: 94px;
+  }
+  .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box .active {
+    margin-bottom: 40px;
   }
   .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box .active .for_arrow {
     background: url(../img/arrow_orange_2.png) no-repeat;
@@ -1011,7 +1037,7 @@ h4 {
     max-width: 200px;
   }
   .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box .panel ul {
-    padding-bottom: 28px;
+    padding-bottom: 40px;
   }
   .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box .panel ul li {
     font-size: 14px;
@@ -1037,16 +1063,22 @@ h4 {
   }
   .education .education_info .info_text {
     margin: 0 auto;
-    margin-top: 18px;
+    margin-top: 30px;
   }
   .education .education_info .info_text p {
-    font-size: 16px;
-    text-align: center;
+    font-size: 14px;
+    text-align: initial;
+  }
+  .education .education_info .info_text .info_1 {
+    margin-bottom: 20px;
+  }
+  .education .education_info .info_text .info_2 {
+    margin-bottom: 30px;
   }
   .education .education_info .info_img {
     margin: 0 auto;
     max-width: 166px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
   .promises h3 {
     font-size: 24px;
@@ -1065,7 +1097,8 @@ h4 {
     max-width: 110px;
   }
   .promises ul li div {
-    height: 100px;
+    height: 80px;
+    margin: 40px 0 20px 0;
   }
   .promises ul li div .ideas {
     max-width: 58px;
@@ -1080,8 +1113,12 @@ h4 {
   .promises ul li div .registration {
     max-width: 76px;
   }
+  .promises ul li div img {
+    width: 70%;
+  }
   .promises ul li p {
-    font-size: 14px;
+    font-size: 16px;
+    margin: 0;
   }
   .promises ul li {
     width: 50%;
@@ -1100,8 +1137,12 @@ h4 {
   .wrapper_application .application_form {
     margin-bottom: 80px;
   }
+  .wrapper_application .application_form form {
+    margin-bottom: 80px;
+  }
   .wrapper_application .application_form form .form-at {
     padding: 20px 15px;
+    margin-bottom: 44px;
   }
   .wrapper_application .application_form form .form-at .form-at-btn {
     max-width: 244px;
@@ -1109,9 +1150,14 @@ h4 {
   }
   .wrapper_application .application_form form .form-at .load_file div p {
     bottom: 0;
+    bottom: 0;
+    width: 164px;
+    text-align: initial;
+    left: 15%;
   }
   .wrapper_application .application_form form .form-at .data_processing {
     font-size: 16px;
+    text-align: initial;
   }
   .wrapper_application .application_form form .form-at .validate-input-at .input-at {
     font-size: 16px;
@@ -1158,11 +1204,11 @@ h4 {
     width: 100%;
   }
   .footer_wrapper .footer .box2 .links a, .footer_wrapper .footer .box2 .links p {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 330px) {
+@media (min-width: 320px) and (max-width: 370px) {
   .wrapper_header .header .wrapperTraineeship .traineeship {
     background-position: 105% 71%;
   }
