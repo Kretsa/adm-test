@@ -932,6 +932,9 @@ h4 {
   .wrapper_application .application_form form .form-at {
     padding: 54px 15px;
   }
+  .wrapper_application .application_form form .form-at .data_processing {
+    text-align: initial;
+  }
   .wrapper_application .application_form form .phone_image {
     display: none;
   }
