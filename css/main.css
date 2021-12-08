@@ -497,6 +497,7 @@ h4 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 200px;
 }
 
 .wrapper_application .application_form form .form-at {
@@ -802,6 +803,10 @@ h4 {
   text-decoration: none;
 }
 
+.footer_wrapper .footer .box2 .links ul li div a span {
+  font-size: 20px;
+}
+
 .footer_wrapper .footer .box2 .links a,
 .footer_wrapper .footer .box2 .links p {
   font-family: "open sans";
@@ -882,7 +887,7 @@ h4 {
     max-width: 418px;
   }
   .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box:nth-child(6) .for_border {
-    top: 110px;
+    top: 120px;
   }
   .education .education_info {
     width: 100%;
@@ -914,6 +919,7 @@ h4 {
   }
   .wrapper_application .application_form form {
     margin: 0 auto;
+    margin-bottom: 200px;
   }
   .wrapper_application .application_form form .form-at {
     padding: 54px 15px;
@@ -943,13 +949,13 @@ h4 {
     background-position: 92% 79%;
   }
   .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info h3 {
-    font-size: 26px;
+    font-size: 24px;
   }
   .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info h4 {
-    font-size: 18px;
+    font-size: 16px;
   }
   .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info p {
-    font-size: 12px;
+    font-size: 14px;
     margin-right: 30px;
     max-width: 260px;
   }
@@ -968,11 +974,15 @@ h4 {
   }
   .wrapper_vacancies .topic .topic_first {
     font-size: 20px;
-    margin: 70px 0 10px 0;
+    margin: 80px 0 20px 0;
+    color: #393939;
   }
   .wrapper_vacancies .topic .topic_second {
     font-size: 17px;
-    margin-bottom: 43px;
+    margin-bottom: 40px;
+  }
+  .wrapper_vacancies .topic p {
+    color: #000000;
   }
   .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box {
     padding-left: 0;
@@ -983,8 +993,14 @@ h4 {
     width: 25px;
   }
   .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box .accordion p {
-    font-size: 12px;
+    font-size: 16px;
     max-width: 200px;
+  }
+  .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box:nth-child(6) p {
+    max-width: 218px;
+  }
+  .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box:nth-child(6) .for_border {
+    top: 120px;
   }
   .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box .active .for_arrow {
     background: url(../img/arrow_orange_2.png) no-repeat;
@@ -1004,12 +1020,14 @@ h4 {
   }
   .education h3 {
     margin: 0;
-    font-size: 20px;
-    margin: 40px 0 10px 0;
+    font-size: 24px;
+    margin: 80px 0 20px 0;
+    color: #000000;
   }
   .education p {
-    font-size: 17px;
-    margin-bottom: 20px;
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #000000;
   }
   .education .education_info {
     padding: 0 15px;
@@ -1017,8 +1035,12 @@ h4 {
         flex-wrap: wrap;
     margin-bottom: 30px;
   }
+  .education .education_info .info_text {
+    margin: 0 auto;
+    margin-top: 18px;
+  }
   .education .education_info .info_text p {
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
   }
   .education .education_info .info_img {
@@ -1027,11 +1049,12 @@ h4 {
     padding-bottom: 20px;
   }
   .promises h3 {
-    font-size: 20px;
-    margin: 50px 0 10px 0;
+    font-size: 24px;
+    margin: 80px 0 20px 0;
   }
   .promises p {
-    font-size: 17px;
+    font-size: 16px;
+    margin-bottom: 40px;
   }
   .promises ul {
     -ms-flex-pack: distribute;
@@ -1065,12 +1088,14 @@ h4 {
     max-width: 100%;
   }
   .wrapper_application h3 {
-    font-size: 20px;
-    margin: 50px 0 10px 0;
+    font-size: 24px;
+    margin: 80px 0 20px 0;
+    color: #000000;
   }
   .wrapper_application p {
-    font-size: 17px;
-    margin-bottom: 30px;
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #000000;
   }
   .wrapper_application .application_form {
     margin-bottom: 80px;
@@ -1085,8 +1110,11 @@ h4 {
   .wrapper_application .application_form form .form-at .load_file div p {
     bottom: 0;
   }
+  .wrapper_application .application_form form .form-at .data_processing {
+    font-size: 16px;
+  }
   .wrapper_application .application_form form .form-at .validate-input-at .input-at {
-    font-size: 14px;
+    font-size: 16px;
   }
   .wrapper_application .application_form form .form-at .validate-input-at .communication_way {
     width: 80%;
@@ -1128,6 +1156,15 @@ h4 {
   }
   .footer_wrapper .footer .box2 .links a {
     width: 100%;
+  }
+  .footer_wrapper .footer .box2 .links a, .footer_wrapper .footer .box2 .links p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 330px) {
+  .wrapper_header .header .wrapperTraineeship .traineeship {
+    background-position: 105% 71%;
   }
 }
 /*# sourceMappingURL=main.css.map */

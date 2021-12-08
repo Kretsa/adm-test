@@ -410,6 +410,7 @@ h4 {
     form {
       display: flex;
       justify-content: space-between;
+      margin-bottom: 200px;
       .form-at {
         display: flex;
         max-width: 600px;
@@ -635,6 +636,9 @@ h4 {
                   background: #ef7f1a;
                   text-decoration: none;
                 }
+                span {
+                  font-size: 20px;
+                }
               }
             }
           }
@@ -753,7 +757,7 @@ h4 {
               max-width: 418px;
             }
             .for_border {
-              top: 110px;
+              top: 120px;
             }
           }
         }
@@ -789,6 +793,7 @@ h4 {
       display: flex;
       form {
         margin: 0 auto;
+        margin-bottom: 200px;
         .form-at {
           padding: 54px 15px;
         }
@@ -829,13 +834,13 @@ h4 {
           background-position: 92% 79%;
           .traineeship_info {
             h3 {
-              font-size: 26px;
+              font-size: 24px;
             }
             h4 {
-              font-size: 18px;
+              font-size: 16px;
             }
             p {
-              font-size: 12px;
+              font-size: 14px;
               margin-right: 30px;
               max-width: 260px;
             }
@@ -858,11 +863,15 @@ h4 {
     .topic {
       .topic_first {
         font-size: 20px;
-        margin: 70px 0 10px 0;
+        margin: 80px 0 20px 0;
+        color: #393939;
       }
       .topic_second {
         font-size: 17px;
-        margin-bottom: 43px;
+        margin-bottom: 40px;
+      }
+      p {
+        color: #000000;
       }
     }
     .vacancies {
@@ -877,10 +886,18 @@ h4 {
             }
 
             p {
-              font-size: 12px;
+              font-size: 16px;
               max-width: 200px;
             }
           
+          }
+          &:nth-child(6) {
+            p {
+              max-width: 218px;
+            }
+            .for_border {
+              top: 120px;
+            }
           }
           .active {
             .for_arrow {
@@ -909,21 +926,27 @@ h4 {
   .education {
     h3 {
       margin: 0;
-      font-size: 20px;
-     margin: 40px 0 10px 0;
+      font-size: 24px;
+     margin: 80px 0 20px 0;
+     color: #000000;
+     
     }
     p {
-      font-size: 17px;
-      margin-bottom: 20px;
+      font-size: 16px;
+      margin-bottom: 40px;
+      color: #000000;
     }
     .education_info {
       padding: 0 15px;
       flex-wrap: wrap;
       margin-bottom: 30px;
       .info_text {
+        margin: 0 auto;
+        margin-top: 18px;
         p {
-          font-size: 14px;
+          font-size: 16px;
           text-align: center;
+       
         }
       }
       .info_img {
@@ -935,12 +958,13 @@ h4 {
   }
   .promises {
     h3 {
-      font-size: 20px;
+      font-size: 24px;
       
-    margin: 50px 0 10px 0;
+    margin: 80px 0 20px 0;
     }
     p {
-      font-size: 17px;
+      font-size: 16px;
+      margin-bottom: 40px;
     }
     ul {
       justify-content: space-around;
@@ -976,13 +1000,15 @@ h4 {
   }
   .wrapper_application {
     h3 {
-      font-size: 20px;
+      font-size: 24px;
       
-    margin: 50px 0 10px 0;
+    margin: 80px 0 20px 0;
+    color: #000000;
     }
     p {
-      font-size: 17px;
-      margin-bottom: 30px;
+      font-size: 16px;
+      margin-bottom: 40px;
+      color: #000000;
     }
     .application_form {
       margin-bottom: 80px;
@@ -1000,9 +1026,12 @@ h4 {
               }
             }
           }
+          .data_processing {
+            font-size: 16px;
+          }
           .validate-input-at {
             .input-at {
-              font-size: 14px;
+              font-size: 16px;
             }
             .communication_way {
               width: 80%;
@@ -1053,6 +1082,20 @@ h4 {
           a {
             width: 100%;
           }
+          a, p {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 320px) and (max-width: 330px) { 
+  .wrapper_header {
+    .header {
+      .wrapperTraineeship {
+        .traineeship {
+          background-position: 105% 71%;
         }
       }
     }

@@ -25,16 +25,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-instagram:before {
-  content: "\e902";
-  color: #ffffff;
-}
 .icon-telegram:before {
   content: "\e901";
   color: #ffffff;
 }
 .icon-viber:before {
   content: "\e900";
+  color: #ffffff;
+}
+.icon-instagram:before {
+  content: "\e902";
   color: #ffffff;
 }
 .icon-facebook:before {
@@ -44,8 +44,4 @@
 .icon-whatsapp:before {
   content: "\ea93";
   color: #ffffff;
-}
-
-span {
-  font-size: 20px;
 }
