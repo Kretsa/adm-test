@@ -1012,13 +1012,13 @@ h4 {
             margin-bottom: 25px;
           }
           .collective {
-            max-width: 132px;
+            max-width: 102px;
           }
           .schedule {
-            max-width: 80px;
+            max-width: 68px;
           }
           .registration {
-            max-width: 76px;
+            max-width: 62px;
           }
           img {
             width: 70%;
@@ -1027,7 +1027,7 @@ h4 {
         }
        
         p {
-          font-size: 16px;
+          font-size: 14px;
           margin: 0;
         }
       }
@@ -1144,6 +1144,19 @@ h4 {
       .wrapperTraineeship {
         .traineeship {
           background-position: 105% 71%;
+        }
+      }
+    }
+  }
+  .wrapper_vacancies {
+    .vacancies {
+      .accordion_wrapper {
+        .accordion_box {
+          &:nth-child(6) {
+            p {
+              max-width: 200px;
+            }
+          }
         }
       }
     }

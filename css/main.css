@@ -1108,19 +1108,19 @@ h4 {
     margin-bottom: 25px;
   }
   .promises ul li div .collective {
-    max-width: 132px;
+    max-width: 102px;
   }
   .promises ul li div .schedule {
-    max-width: 80px;
+    max-width: 68px;
   }
   .promises ul li div .registration {
-    max-width: 76px;
+    max-width: 62px;
   }
   .promises ul li div img {
     width: 70%;
   }
   .promises ul li p {
-    font-size: 16px;
+    font-size: 14px;
     margin: 0;
   }
   .promises ul li {
@@ -1214,6 +1214,9 @@ h4 {
 @media (min-width: 320px) and (max-width: 370px) {
   .wrapper_header .header .wrapperTraineeship .traineeship {
     background-position: 105% 71%;
+  }
+  .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box:nth-child(6) p {
+    max-width: 200px;
   }
 }
 /*# sourceMappingURL=main.css.map */
