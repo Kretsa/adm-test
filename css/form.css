@@ -243,9 +243,7 @@ input.input-at:focus {
     background: transparent;
 }
 
-.checkbox:hover {
-    /* border-radius: 50px; */
-}
+
 
 .checkmark {
     position: absolute;

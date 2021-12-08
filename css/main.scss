@@ -168,7 +168,7 @@ h4 {
     .topic_first {
       font-size: 36px;
       color: #393939;
-      margin: 90px 0 21px 0;
+      margin: 90px 0 14px 0;
     }
     .topic_second {
       font-size: 24px;
@@ -380,8 +380,7 @@ h4 {
         font-size: 24px;
         color: #000000;
       }
-      &:nth-child(1) {
-      }
+  
     }
   }
 }
@@ -457,7 +456,7 @@ h4 {
               }
               .choised_manager {
                 transition: all 0.3s ease;
-                // opacity: 0;
+
                 display: none;
               }
               .choised_whatsapp {
@@ -859,9 +858,11 @@ h4 {
     .topic {
       .topic_first {
         font-size: 20px;
+        margin: 70px 0 10px 0;
       }
       .topic_second {
         font-size: 17px;
+        margin-bottom: 43px;
       }
     }
     .vacancies {
@@ -879,6 +880,7 @@ h4 {
               font-size: 12px;
               max-width: 200px;
             }
+          
           }
           .active {
             .for_arrow {
@@ -900,6 +902,7 @@ h4 {
             }
           }
         }
+    
       }
     }
   }
@@ -907,9 +910,11 @@ h4 {
     h3 {
       margin: 0;
       font-size: 20px;
+     margin: 40px 0 10px 0;
     }
     p {
       font-size: 17px;
+      margin-bottom: 20px;
     }
     .education_info {
       padding: 0 15px;
@@ -931,6 +936,8 @@ h4 {
   .promises {
     h3 {
       font-size: 20px;
+      
+    margin: 50px 0 10px 0;
     }
     p {
       font-size: 17px;
@@ -969,12 +976,16 @@ h4 {
   }
   .wrapper_application {
     h3 {
-      font-size: 30px;
+      font-size: 20px;
+      
+    margin: 50px 0 10px 0;
     }
     p {
       font-size: 17px;
+      margin-bottom: 30px;
     }
     .application_form {
+      margin-bottom: 80px;
       form {
         .form-at {
           padding: 20px 15px;

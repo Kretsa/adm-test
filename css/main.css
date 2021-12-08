@@ -185,7 +185,7 @@ h4 {
 .wrapper_vacancies .topic .topic_first {
   font-size: 36px;
   color: #393939;
-  margin: 90px 0 21px 0;
+  margin: 90px 0 14px 0;
 }
 
 .wrapper_vacancies .topic .topic_second {
@@ -968,9 +968,11 @@ h4 {
   }
   .wrapper_vacancies .topic .topic_first {
     font-size: 20px;
+    margin: 70px 0 10px 0;
   }
   .wrapper_vacancies .topic .topic_second {
     font-size: 17px;
+    margin-bottom: 43px;
   }
   .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box {
     padding-left: 0;
@@ -1003,9 +1005,11 @@ h4 {
   .education h3 {
     margin: 0;
     font-size: 20px;
+    margin: 40px 0 10px 0;
   }
   .education p {
     font-size: 17px;
+    margin-bottom: 20px;
   }
   .education .education_info {
     padding: 0 15px;
@@ -1024,6 +1028,7 @@ h4 {
   }
   .promises h3 {
     font-size: 20px;
+    margin: 50px 0 10px 0;
   }
   .promises p {
     font-size: 17px;
@@ -1060,10 +1065,15 @@ h4 {
     max-width: 100%;
   }
   .wrapper_application h3 {
-    font-size: 30px;
+    font-size: 20px;
+    margin: 50px 0 10px 0;
   }
   .wrapper_application p {
     font-size: 17px;
+    margin-bottom: 30px;
+  }
+  .wrapper_application .application_form {
+    margin-bottom: 80px;
   }
   .wrapper_application .application_form form .form-at {
     padding: 20px 15px;
