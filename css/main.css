@@ -910,7 +910,7 @@ h4 {
     margin: 0 auto;
   }
   .education .education_info .info_text p {
-    text-align: center;
+    text-align: initial;
   }
   .education .education_info .info_img {
     margin: 0 auto;
