@@ -9,7 +9,6 @@
   font-style: normal;
   font-display: block;
 }
-
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -25,23 +24,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-phone:before {
+  content: "\e903";
+  color: #929292;
+}
 .icon-telegram:before {
   content: "\e901";
-  color: #ffffff;
 }
 .icon-viber:before {
   content: "\e900";
-  color: #ffffff;
 }
 .icon-instagram:before {
   content: "\e902";
-  color: #ffffff;
 }
 .icon-facebook:before {
   content: "\ea90";
-  color: #ffffff;
 }
 .icon-whatsapp:before {
   content: "\ea93";
-  color: #ffffff;
+}
+
+span::before {
+  color: #ffff;
 }
