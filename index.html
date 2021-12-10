@@ -466,119 +466,121 @@
             <div class="line"></div>
           </div> 
         </span>
-        <form enctype="multipart/form-data" method="post" class="popup_form_box">
-          <div class="form-at">
-            <div class="validate-input-at w-50" data-validate="Обязательное поле">
-              <input class="input-at" type="text" name="name-at" placeholder="Имя" />
-              <span class="focus-input-at"></span>
-            </div>
-            <div class="validate-input-at w-50" data-validate="Обязательное поле">
-              <input class="input-at" type="phone" name="phone" placeholder="Телефон" />
-              <span class="focus-input-at"></span>
-  
-              <div class="communication_way">
-                <p class="how_text">Как связаться?</p>
-                <div class="choised_way">
-                  <div class="choised_manager choised" id="manager">
-                    <img src="img/communication/phone.svg" alt="">
+        
+          <form enctype="multipart/form-data" method="post" class="popup_form_box">
+            <div class="form-at">
+              <div class="validate-input-at w-50" data-validate="Обязательное поле">
+                <input class="input-at" type="text" name="name-at" placeholder="Имя *" />
+                <span class="focus-input-at"></span>
+              </div>
+              <div class="validate-input-at w-50" data-validate="Обязательное поле">
+                <input class="input-at" type="phone" name="phone" placeholder="Телефон *" />
+                <span class="focus-input-at"></span>
+    
+                <div class="communication_way">
+                  <p class="how_text">Как связаться?</p>
+                  <div class="choised_way">
+                    <div class="choised_manager choised" id="manager">
+                      <span class="icon-phone"></span>
+                    </div>
+                    <div class="choised_whatsapp choised" id="whatsapp">
+                      <span class="icon-whatsapp"></span>
+                    </div>
+                    <div class="choised_viber choised" id="telegram">
+                      <span class="icon-viber"></span>
+                    </div>
+                    <div class="choised_telegram choised" id="telegram">                 
+                      <span class="icon-telegram"></span>
+                    </div>
                   </div>
-                  <div class="choised_whatsapp" id="whatsapp">
-                    <img src="img//communication/whatsapp.svg" alt="">
-                  </div>
-                  <div class="choised_viber" id="telegram">
-                    <img src="img/communication/viber.svg" alt="">
-                  </div>
-                  <div class="choised_telegram" id="telegram">
-                    <img src="img/communication/telegram.svg" alt="">
-                  </div>
-                </div>
-                <div class="choise">
-  
-                  <div class="manager_box">
-                    <label class="custom-checkbox">
-                      <input class="hidden-checkbox manager_input" id="checkbox-at" type="checkbox">
-                      <div class="checkbox">
-                        <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24">
-                          <path fill="#ffffff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" />
-                        </svg>
-                      </div>
+                  <div class="choise">
+    
+                    <div class="manager_box box_icon">
+                      <label class="custom-checkbox">
+                        <input class="hidden-checkbox manager_input" id="checkbox-at" type="checkbox">
+                        <div class="checkbox">
+                          <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path fill="#ffffff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" />
+                          </svg>
+                        </div>
                   
-                      <p>Звонок менеджера</p>
-                    </label>
-                  </div>
-  
-                  <div class="whatsapp_box">
-                    <label class="custom-checkbox">
-                      <input class="hidden-checkbox whatsapp_input" id="checkbox-at" type="checkbox">
-                      <div class="checkbox">
-                        <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24">
-                          <path fill="#ffffff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" />
-                        </svg>
-                      </div>
-           
-                      <p>WhatApp</p>
-                    </label>
-                  </div>
-  
-                  <div class="viber_box">
-                    <label class="custom-checkbox">
-                      <input class="hidden-checkbox viber_input" type="checkbox">
-                      <div class="checkbox">
-                        <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24">
-                          <path fill="#ffffff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" />
-                        </svg>
-                      </div>
-          
-                      <p>Viber</p>
-                    </label>
-                  </div>
-  
-                  <div class="telegram_box">
-                    <label class="custom-checkbox">
-                      <input class="hidden-checkbox telegram_input" type="checkbox">
-                      <div class="checkbox">
-                        <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24">
-                          <path fill="#ffffff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" />
-                        </svg>
-                      </div>
-
-                      <p>Telegram</p>
-                    </label>
+                        <span class="icon-phone "></span>
+                        <p>Звонок менеджера</p>
+                      </label>
+                    </div>
+    
+                    <div class="whatsapp_box box_icon">
+                      <label class="custom-checkbox">
+                        <input class="hidden-checkbox whatsapp_input" id="checkbox-at" type="checkbox">
+                        <div class="checkbox">
+                          <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path fill="#ffffff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" />
+                          </svg>
+                        </div>
+                        <span class="icon-whatsapp"></span>
+                        <p>WhatApp</p>
+                      </label>
+                    </div>
+    
+                    <div class="viber_box box_icon">
+                      <label class="custom-checkbox">
+                        <input class="hidden-checkbox viber_input" type="checkbox">
+                        <div class="checkbox">
+                          <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path fill="#ffffff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" />
+                          </svg>
+                        </div>
+                        <span class="icon-viber"></span>
+                        <p>Viber</p>
+                      </label>
+                    </div>
+    
+                    <div class="telegram_box box_icon">
+                      <label class="custom-checkbox">
+                        <input class="hidden-checkbox telegram_input" type="checkbox">
+                        <div class="checkbox">
+                          <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path fill="#ffffff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" />
+                          </svg>
+                        </div>
+                        <span class="icon-telegram"></span>
+                        <p>Telegram</p>
+                      </label>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-  
-            <div class="validate-input-at w-50" data-validate="Обязательное поле">
-              <input class="input-at" type="text" name="speciality" placeholder="Интересующая специальность" />
-              <span class="focus-input-at"></span>
-            </div>
-  
-            <div class="validate-input-at">
-              <textarea class="input-at" name="message-at" placeholder="Комментарии"></textarea>
-              <span class="focus-input-at"></span>
-            </div>
-  
-            <div class="load_file" id="upload_container">
-              <img id="upload-image" src="img/skrepka.png">
-              <div>
-                <input id="file-input" type="file" name="file" multiple>
-                <label for="file-input"></label>
-                <p>Прикрепить файл (резюме, портфолио)</p>
+    
+              <div class="validate-input-at w-50" data-validate="Обязательное поле">
+                <input class="input-at" type="text" name="speciality" placeholder="Интересующая специальность *" />
+                <span class="focus-input-at"></span>
               </div>
+    
+              <div class="validate-input-at">
+                <textarea class="input-at" name="message-at" placeholder="Комментарии"></textarea>
+                <span class="focus-input-at"></span>
+              </div>
+    
+              <div class="load_file" id="upload_container">
+                <img id="upload-image" src="img/skrepka.png">
+                <div>
+                  <input id="file-input" type="file" name="file" multiple>
+                  <label for="file-input"></label>
+                  <p>Прикрепить файл (резюме, портфолио)</p>
+                </div>
+              </div>
+              <p class="data_processing">Нажимая на кнопку, даю свое согласие 
+                на обработку персональныхданных 
+                согласно статье РФ </p>
+              <button id="submit-at" class="form-at-btn">Отправить</button>
             </div>
-            <p class="data_processing">Нажимая на кнопку, даю свое согласие 
-              на обработку персональныхданных 
-              согласно статье РФ </p>
-            <button id="submit-at" class="form-at-btn">Отправить</button>
-          </div>
-          
-          <div class="result-at"></div>
-        </form>
+      
+            <div class="result-at"></div>
+          </form>
       </div>
     </div>
   </div>
