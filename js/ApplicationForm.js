@@ -34,13 +34,43 @@ $(document).on('mouseup', function(e) {
 
 
 $(document).ready(function() {
-    $(".hidden-checkbox ").on("change", function() {
+    $(".h_c_input").on("change", function() {
         $(".how_text").toggleClass("how_text_wiew", $("input:checked").length > 0);
     });
 });
+        /*  choise box popup  */
+        $('.how_text_popup').on('click', function(e) {
+          $('.choise_popup').toggleClass("wiew");
+          e.preventDefault();
+      });
+      $('.manager').prop('checked', true);
 
+      $(".manager_input_popup").click(function() {
+        $(".choised_manager_popup").toggle();
+    });
+    $(".whatsapp_input_popup").click(function() {
+        $(".choised_whatsapp_popup").toggle();
+    });
+    $(".viber_input_popup").click(function() {
+        $(".choised_viber_popup").toggle();
+    });
+    $(".telegram_input_popup").click(function() {
+        $(".choised_telegram_popup").toggle();
+    });
+    // $('.choise').toggleClass("wiew");
+    $(document).on('mouseup', function(e) {
+        let s = $('.choise_popup.wiew');
+        if (!s.is(e.target) && s.has(e.target).length === 0) {
+    
+            s.removeClass('wiew');
+        }
+    });
 
-
+    $(document).ready(function() {
+    $(".h_c").on("change", function() {
+        $(".how_text_popup").toggleClass("how_text_wiew", $("input:checked").length > 0);
+    });
+});
 
 
 //                   /* phone  */
