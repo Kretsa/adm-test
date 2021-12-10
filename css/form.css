@@ -319,3 +319,6 @@ label:focus-visible {
   outline: 0;
   outline-offset: 0;
 }
+.load_file:focus-visible {
+  outline: none;
+}
