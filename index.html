@@ -7,12 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/form.css">
   <link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/styleSimpleBar.css">
   <link rel="stylesheet" href="css/main.css">
   <title>Document</title>
 </head>
 
-<body>
-  
+<body >
+  <div class="customScroll" data-simplebar>
   <div class="wrapper_header">
     <div class="header">
       <div class="contacts">
@@ -60,8 +61,6 @@
             <span class="for_arrow"></span>
             <span class="for_border"></span>
           </button>
-          
-
           <div class="panel">
             <ul>
               <li>
@@ -565,11 +564,11 @@
                 <span class="focus-input-at"></span>
               </div>
     
-              <div class="load_file" id="upload_container">
+              <div class="load_file load_file_popup" id="upload_container">
                 <img id="upload-image" src="img/skrepka.png">
                 <div>
-                  <input id="file-input" type="file" name="file" multiple>
-                  <label for="file-input"></label>
+                  <input id="file-input-2" type="file" name="file" multiple>
+                  <label for="file-input-2"></label>
                   <p>Прикрепить файл (резюме, портфолио)</p>
                 </div>
               </div>
@@ -583,7 +582,7 @@
       </div>
     </div>
   </div>
-
+  </div>
   <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" type="text/javascript"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.js" type="text/javascript">
@@ -591,6 +590,7 @@
   <script src=" js/accordion.js "></script>
   <script src=" js/ApplicationForm.js "></script>
   <script src="js/popup.js"></script>
+  <script src="js/simplebar.js"></script>
 
 
 
