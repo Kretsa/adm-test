@@ -302,6 +302,7 @@ input.input-at:focus {
 #upload_container label.focus {
     outline: 1px solid #0078d7;
     outline: -webkit-focus-ring-color auto 5px;
+    outline: none;
 }
 
 #upload_container.dragover {
@@ -321,4 +322,7 @@ label:focus-visible {
 }
 .load_file:focus-visible {
   outline: none;
+}
+.upload_container {
+
 }
