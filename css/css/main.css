@@ -135,6 +135,10 @@ h4 {
   margin-bottom: 32px;
 }
 
+.wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info h4 span {
+  white-space: nowrap;
+}
+
 .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info .first_text {
   margin-bottom: 29px;
 }
@@ -469,6 +473,10 @@ h4 {
   color: #000000;
 }
 
+.promises ul li:nth-child(4) p {
+  margin: 0;
+}
+
 .wrapper_application,
 .wraper_form {
   max-width: 1200px;
@@ -555,7 +563,8 @@ h4 {
   position: relative;
 }
 
-.wrapper_application .application_form form .form-at .validate-input-at .communication_way .how_text, .wrapper_application .application_form form .form-at .validate-input-at .communication_way .how_text_popup,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .how_text,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .how_text_popup,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .how_text,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .how_text_popup {
   font-size: 16px;
@@ -591,7 +600,8 @@ h4 {
   margin: 0 5px 0 5px;
 }
 
-.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_manager, .wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_manager_popup,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_manager,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_manager_popup,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_manager,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_manager_popup {
   -webkit-transition: all 0.3s ease;
@@ -599,7 +609,8 @@ h4 {
   display: none;
 }
 
-.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_whatsapp, .wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_whatsapp_popup,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_whatsapp,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_whatsapp_popup,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_whatsapp,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_whatsapp_popup {
   display: none;
@@ -607,7 +618,8 @@ h4 {
   transition: all 0.3s ease;
 }
 
-.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_viber, .wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_viber_popup,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_viber,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_viber_popup,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_viber,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_viber_popup {
   display: none;
@@ -615,7 +627,8 @@ h4 {
   transition: all 0.3s ease;
 }
 
-.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_telegram, .wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_telegram_popup,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_telegram,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_telegram_popup,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_telegram,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_telegram_popup {
   display: none;
@@ -623,25 +636,29 @@ h4 {
   transition: all 0.3s ease;
 }
 
-.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised, .wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_popup,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_popup,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choised_way .choised,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_popup {
   margin-left: 7px;
 }
 
-.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised span, .wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_popup span,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised span,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_popup span,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choised_way .choised span,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_popup span {
   font-size: 14px;
 }
 
-.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised span:before, .wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_popup span:before,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised span:before,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_popup span:before,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choised_way .choised span:before,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choised_way .choised_popup span:before {
   color: #9e9e9e;
 }
 
-.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise, .wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise_popup,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise_popup,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choise,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choise_popup {
   position: absolute;
@@ -658,7 +675,8 @@ h4 {
   padding: 6px;
 }
 
-.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise label, .wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise_popup label,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise label,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise_popup label,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choise label,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choise_popup label {
   display: -webkit-box;
@@ -668,52 +686,60 @@ h4 {
   margin-bottom: 10px;
 }
 
-.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise label img, .wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise_popup label img,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise label img,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise_popup label img,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choise label img,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choise_popup label img {
   width: 20px;
   margin-right: 10px;
 }
 
-.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise label p, .wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise_popup label p,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise label p,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise_popup label p,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choise label p,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choise_popup label p {
   font-size: 14px;
   margin: 0;
 }
 
-.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise div, .wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise_popup div,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise div,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise_popup div,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choise div,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choise_popup div {
   cursor: pointer;
 }
 
-.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise .box_icon label span, .wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise_popup .box_icon label span,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise .box_icon label span,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise_popup .box_icon label span,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choise .box_icon label span,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choise_popup .box_icon label span {
   font-size: 16px;
   margin-right: 10px;
 }
 
-.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise .box_icon label span::before, .wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise_popup .box_icon label span::before,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise .box_icon label span::before,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise_popup .box_icon label span::before,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choise .box_icon label span::before,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choise_popup .box_icon label span::before {
   color: #9e9e9e;
 }
 
-.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise .box_icon label p, .wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise_popup .box_icon label p,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise .box_icon label p,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise_popup .box_icon label p,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choise .box_icon label p,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choise_popup .box_icon label p {
   color: #9e9e9e;
 }
 
-.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise .box_icon label:hover span::before, .wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise_popup .box_icon label:hover span::before,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise .box_icon label:hover span::before,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise_popup .box_icon label:hover span::before,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choise .box_icon label:hover span::before,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choise_popup .box_icon label:hover span::before {
   color: #222121;
 }
 
-.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise .box_icon label:hover p, .wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise_popup .box_icon label:hover p,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise .box_icon label:hover p,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .choise_popup .box_icon label:hover p,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choise .box_icon label:hover p,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .choise_popup .box_icon label:hover p {
   color: #222121;
@@ -1070,6 +1096,10 @@ h4 {
   z-index: 10;
 }
 
+.simplebar-placeholder {
+  display: none;
+}
+
 @media (min-width: 600px) and (max-width: 1260px) {
   .wrapper_header .header .contacts {
     padding: 26px 15px;
@@ -1120,6 +1150,12 @@ h4 {
   }
 }
 
+@media (min-width: 800px) and (max-width: 850px) {
+  .wrapper_header .header .wrapperTraineeship .traineeship {
+    background-position: 94%;
+  }
+}
+
 @media (min-width: 800px) and (max-width: 900px) {
   .promises ul li {
     width: 50%;
@@ -1129,8 +1165,11 @@ h4 {
 
 @media (min-width: 600px) and (max-width: 800px) {
   .wrapper_header .header .wrapperTraineeship .traineeship {
-    background-position: 111%;
+    background-position: 111% 78%;
     background-size: 272px;
+  }
+  .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info h4 {
+    max-width: 317px;
   }
   .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box:nth-child(6) p {
     max-width: 418px;
@@ -1476,36 +1515,51 @@ h4 {
   }
 }
 
+@media (min-width: 450px) and (max-width: 600px) {
+  .wrapper_header .header .wrapperTraineeship .traineeship {
+    background-position: 94% 36%;
+  }
+  .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info {
+    max-width: 296px;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 370px) {
   .wrapper_header .header .wrapperTraineeship .traineeship {
-    background-position: 107% 53%;
+    background-position: 94% 33%;
+    background-size: 37%;
+  }
+  .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info {
+    max-width: 236px;
   }
   .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box:nth-child(6) p {
     max-width: 200px;
   }
 }
 
-/* select */
-.custom-select {
-  width: 100%;
+@media (min-width: 370px) and (max-width: 400px) {
+  .wrapper_header .header .wrapperTraineeship .traineeship {
+    background-position: 94% 33%;
+    background-size: 37%;
+  }
+  .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info {
+    max-width: 236px;
+  }
+  .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box:nth-child(6) p {
+    max-width: 200px;
+  }
 }
 
-.custom-select .select-selected, .custom-select .select-items {
-  font-family: "open sans";
-  font-weight: lighter;
-  color: #b9b9b9;
-  font-size: 16px;
-}
-
-.custom-select .select-selected {
-  background: transparent;
-  color: #b9b9b9;
-}
-
-.custom-select .select-items .div {
-  font-family: "open sans";
-  font-weight: lighter;
-  color: #b9b9b9;
-  font-size: 16px;
+@media (min-width: 400px) and (max-width: 450px) {
+  .wrapper_header .header .wrapperTraineeship .traineeship {
+    background-position: 94% 33%;
+    background-size: 37%;
+  }
+  .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info {
+    max-width: 236px;
+  }
+  .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box:nth-child(6) p {
+    max-width: 200px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
