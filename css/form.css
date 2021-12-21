@@ -243,8 +243,6 @@ input.input-at:focus {
     background: transparent;
 }
 
-
-
 .checkmark {
     position: absolute;
     top: 50%;
@@ -315,88 +313,151 @@ label:focus-visible {
     outline: 0;
     outline-offset: 0;
 }
+
 .foucus {
-  opacity: 0;
-  outline: 0;
-  outline-offset: 0;
-}
-.load_file:focus-visible {
-  outline: none;
+    opacity: 0;
+    outline: 0;
+    outline-offset: 0;
 }
 
+.load_file:focus-visible {
+    outline: none;
+}
+
+
 /* select */
+
+
 /*the container must be positioned relative:*/
+
 .custom-select {
-  position: relative;
-  font-family: Arial;
+    position: relative;
+    font-family: Arial;
 }
 
 .custom-select select {
-  display: none; /*hide original SELECT element:*/
+    display: none;
+    /*hide original SELECT element:*/
 }
 
 .select-selected {
-  background-color: DodgerBlue;
+    background-color: DodgerBlue;
 }
+
 
 /*style the arrow inside the select element:*/
+
 .select-selected:after {
-  position: absolute;
-  content: "";
-  top: 14px;
-  right: 10px;
-  width: 0;
-  height: 0;
-  border: 6px solid transparent;
-  border-color: #fff transparent transparent transparent;
-     content: "›";
-       transform: rotate( 
-   90deg);
-      top: 10px;
-     font-size: 41px;
-     right: 0;
-   
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+    content: "›";
+    transform: rotate( 90deg);
+    top: 15px;
+    font-size: 41px;
+    right: 0;
 }
+
 
 /*point the arrow upwards when the select box is open (active):*/
+
 .select-selected.select-arrow-active:after {
-  border-color: transparent transparent #fff transparent;
-  top: 19px !important;
-  transform: rotate( 
-271deg)!important;
-  right: 57px !important;
+    border-color: transparent transparent #fff transparent;
+    top: 24px !important;
+    transform: rotate( 271deg)!important;
+    right: 57px !important;
 }
+
 
 /*style the items (options), including the selected item:*/
-.select-items div,.select-selected {
-  /* color: #ffffff; */
-  padding: 8px 16px;
-  border: 1px solid transparent;
-  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
-  cursor: pointer;
-  user-select: none;
-  font-family: "open sans";
-  font-weight: lighter;
-  color: #b9b9b9;
-  font-size: 16px;
+
+.select-items div,
+.select-selected {
+    /* color: #ffffff; */
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    /* border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent; */
+    cursor: pointer;
+    user-select: none;
+    font-family: "open sans";
+    font-weight: lighter;
+    color: #b9b9b9;
+    font-size: 16px;
+    padding: 24px 24px 0px 20px;
 }
+
 
 /*style items (options):*/
+
 .select-items {
-  position: absolute;
-  background: #ffffff;
-  color: #b9b9b9;
-  top: 100%;
-  left: 0;
-  right: 0;
-  z-index: 99;
+    position: absolute;
+    background: #ffffff;
+    color: #b9b9b9;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border: 1px solid #999999;
+    visibility: visible;
+    opacity: 1;
 }
+
 
 /*hide the items when the select box is closed:*/
+
 .select-hide {
-  display: none;
+    /* display: none; */
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s ease;
+    height: 0;
 }
 
-.select-items div:hover, .same-as-selected {
-  background-color: rgba(0, 0, 0, 0.1);
+.select-items div:hover,
+.same-as-selected {
+    /* background-color: rgba(0, 0, 0, 0.1);
+  color: #ff4f00; */
+    background-color: #ef7f1a;
+    color: #ffffff !important;
 }
+
+.select-items div:hover {
+    border: 1px solid transparent;
+    border-color: rgba(0, 0, 0, 0.1)transparent rgba(0, 0, 0, 0.1) transparent;
+}
+
+.select-items div {
+    padding: 14px 16px;
+    margin-left: -1px;
+}
+
+.v-o_brdr {
+    border: 1px solid #ef7f1a;
+    transition: .5s;
+    /* animation: move 1s ; */
+}
+
+
+/* 
+@keyframes move {
+  0% {
+      
+      padding: 0;
+  }
+
+  50% {
+    margin: 15px;
+    border: 10px solid #ef7f1a;
+   
+  }
+
+  100% {
+    
+     
+  }
+} */
