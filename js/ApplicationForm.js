@@ -316,3 +316,13 @@ $('.select-selected').on('click', function(e) {
     $('.vacancies-option').toggleClass("v-o_brdr");
     e.preventDefault();
 });
+
+/* hide scroll popup form */
+$('.popup ').on('click', function(e) {
+  $('.simplebar-track').addClass("hide-scroll");
+  e.preventDefault();
+});
+$('.arrow').on('click', function(e) {
+  $('.simplebar-track').removeClass("hide-scroll");
+  e.preventDefault();
+});
