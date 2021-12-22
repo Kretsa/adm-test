@@ -496,7 +496,7 @@ h4 {
                             transition: all 0.3s ease;
                             background: rgb(219, 219, 219);
                             top: 50px;
-                            z-index: 1;
+                            z-index: 100;
                             right: -2px;
                             padding: 6px;
                             label {
@@ -546,6 +546,7 @@ h4 {
                             transform: translateY(0);
                             opacity: 1;
                             display: block;
+                            z-index: 100 !important;
                         }
                         .wiew2 {
                             display: none;
@@ -635,7 +636,7 @@ h4 {
                     color: #323232;
                     &:hover {
                         text-decoration: underline;
-                        color: #ef7f1a;
+                        color: #ff4f00;
                         transition: 0.5s linear;
                     }
                 }
@@ -671,7 +672,7 @@ h4 {
                                 background: #7f7f7f;
                                 border-radius: 50%;
                                 &:hover {
-                                    background: #ef7f1a;
+                                    background: #ff4f00;
                                     text-decoration: none;
                                 }
                                 span {
@@ -690,7 +691,7 @@ h4 {
                 a {
                     &:hover {
                         text-decoration: underline;
-                        color: #ef7f1a;
+                        color: #ff4f00;
                         transition: 0.5s linear;
                     }
                 }
@@ -737,7 +738,7 @@ h4 {
                         width: 25px;
                         height: 4px;
                         border-radius: 2px;
-                        background: #ef7f1a;
+                        background: #ff4f00;
                         transform-origin: center;
                         transform: translate(-50%, -50%) rotate(45deg);
                         &:nth-child(2) {
@@ -781,7 +782,7 @@ h4 {
                         width: 25px;
                         height: 4px;
                         border-radius: 2px;
-                        background: #ef7f1a;
+                        background: #ff4f00;
                         transform-origin: center;
                         transform: translate(-50%, -50%) rotate(45deg);
                         &:nth-child(2) {

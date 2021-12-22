@@ -670,7 +670,7 @@ h4 {
   transition: all 0.3s ease;
   background: #dbdbdb;
   top: 50px;
-  z-index: 1;
+  z-index: 100;
   right: -2px;
   padding: 6px;
 }
@@ -754,6 +754,7 @@ h4 {
           transform: translateY(0);
   opacity: 1;
   display: block;
+  z-index: 100 !important;
 }
 
 .wrapper_application .application_form form .form-at .validate-input-at .communication_way .wiew2,
@@ -867,7 +868,7 @@ h4 {
 
 .footer_wrapper .footer .box1 .contacts a:hover {
   text-decoration: underline;
-  color: #ef7f1a;
+  color: #ff4f00;
   -webkit-transition: 0.5s linear;
   transition: 0.5s linear;
 }
@@ -929,7 +930,7 @@ h4 {
 }
 
 .footer_wrapper .footer .box2 .links ul li div a:hover {
-  background: #ef7f1a;
+  background: #ff4f00;
   text-decoration: none;
 }
 
@@ -946,7 +947,7 @@ h4 {
 
 .footer_wrapper .footer .box2 .links a:hover {
   text-decoration: underline;
-  color: #ef7f1a;
+  color: #ff4f00;
   -webkit-transition: 0.5s linear;
   transition: 0.5s linear;
 }
@@ -1014,7 +1015,7 @@ h4 {
   width: 25px;
   height: 4px;
   border-radius: 2px;
-  background: #ef7f1a;
+  background: #ff4f00;
   -webkit-transform-origin: center;
           transform-origin: center;
   -webkit-transform: translate(-50%, -50%) rotate(45deg);
@@ -1070,7 +1071,7 @@ h4 {
   width: 25px;
   height: 4px;
   border-radius: 2px;
-  background: #ef7f1a;
+  background: #ff4f00;
   -webkit-transform-origin: center;
           transform-origin: center;
   -webkit-transform: translate(-50%, -50%) rotate(45deg);
