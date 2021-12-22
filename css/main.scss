@@ -441,6 +441,10 @@ h4 {
                             font-family: "open sans";
                             font-weight: lighter;
                             color: #b9b9b9;
+                            &:hover {
+                                color: #ff4f00;
+                                transition: 0.5s ease;
+                            }
                         }
                         .how_text_wiew {
                             font-size: 12px;
@@ -588,7 +592,7 @@ h4 {
                             content: "Специальность: *";
                             font-family: "open sans";
                             font-weight: lighter;
-                            color: #b9b9b9;
+                            color: #747474;
                             font-size: 16px;
                             pointer-events: none;
                             position: absolute;
@@ -610,6 +614,13 @@ h4 {
                             left: 20px;
                         }
                     }
+                    // .c-s_main {
+                    //     .select-items {
+                    //         &::after {
+                    //             color: #6e6e6e;
+                    //         }
+                    //     }
+                    // }
                 }
                 .load_file {
                     width: 100%;
@@ -641,7 +652,7 @@ h4 {
                             z-index: -1;
                             font-family: "open sans";
                             font-weight: lighter;
-                            color: #b9b9b9;
+                            color: #747474;
                         }
                     }
                 }
@@ -649,7 +660,7 @@ h4 {
                     font-family: "open sans";
                     font-weight: lighter;
                     font-size: 14px;
-                    color: #b9b9b9;
+                    color: #747474;
                     text-align: left;
                 }
                 .form-at-btn {

@@ -576,6 +576,15 @@ h4 {
   color: #b9b9b9;
 }
 
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .how_text:hover,
+.wrapper_application .application_form form .form-at .validate-input-at .communication_way .how_text_popup:hover,
+.wraper_form .application_form form .form-at .validate-input-at .communication_way .how_text:hover,
+.wraper_form .application_form form .form-at .validate-input-at .communication_way .how_text_popup:hover {
+  color: #ff4f00;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
 .wrapper_application .application_form form .form-at .validate-input-at .communication_way .how_text_wiew,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .how_text_wiew {
   font-size: 12px;
@@ -811,7 +820,7 @@ h4 {
   content: "Специальность: *";
   font-family: "open sans";
   font-weight: lighter;
-  color: #b9b9b9;
+  color: #747474;
   font-size: 16px;
   pointer-events: none;
   position: absolute;
@@ -873,7 +882,7 @@ h4 {
   z-index: -1;
   font-family: "open sans";
   font-weight: lighter;
-  color: #b9b9b9;
+  color: #747474;
 }
 
 .wrapper_application .application_form form .form-at .data_processing,
@@ -881,7 +890,7 @@ h4 {
   font-family: "open sans";
   font-weight: lighter;
   font-size: 14px;
-  color: #b9b9b9;
+  color: #747474;
   text-align: left;
 }
 
