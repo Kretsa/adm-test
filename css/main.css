@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: "Open Sans";
   src: url("OpenSans-Light.eot");
@@ -52,8 +51,6 @@ a {
   text-decoration: none;
 }
 
-h1,
-h2,
 h3,
 h4 {
   margin: 0;
@@ -76,14 +73,14 @@ h4 {
   padding: 26px 0;
 }
 
-.wrapper_header .header .contacts .phone span a {
+.wrapper_header .header .contacts .phone p a {
   color: #000000;
   font-size: 16px;
   font-family: "open sans";
   font-weight: 300;
 }
 
-.wrapper_header .header .contacts .phone span a:hover {
+.wrapper_header .header .contacts .phone p a:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -96,63 +93,66 @@ h4 {
   width: 100%;
 }
 
-.wrapperTraineeship {
+.wrapper_header .header .wrapperTraineeship {
   width: 100%;
   background: #f3f6f6;
 }
 
-.wrapperTraineeship .traineeship {
+.wrapper_header .header .wrapperTraineeship .traineeship {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   background: url(../img/feet.png) no-repeat;
   background-position: 80%;
-  padding: 0 15px;
 }
 
-.wrapperTraineeship .traineeship .traineeship_info {
-  max-width: 600px;
+.wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info {
+  max-width: 560px;
   width: 100%;
-  padding-top: 51px;
 }
 
-.wrapperTraineeship .traineeship .traineeship_info h1,
-.wrapperTraineeship .traineeship .traineeship_info p,
-.wrapperTraineeship .traineeship .traineeship_info a {
+.wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info h3,
+.wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info h4,
+.wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info p,
+.wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info a {
   font-family: "open sans";
 }
 
-.wrapperTraineeship .traineeship .traineeship_info p {
+.wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info p {
   max-width: 430px;
   font-weight: 300;
   font-size: 18px;
 }
 
-.wrapperTraineeship .traineeship .traineeship_info h1 {
+.wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info h3 {
   font-size: 45px;
   margin-bottom: 21px;
+  padding-top: 51px;
 }
 
-.wrapperTraineeship .traineeship .traineeship_info .first_text {
+.wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info h4 {
   font-size: 32px;
   margin-bottom: 32px;
-  font-weight: bold;
 }
 
-.wrapperTraineeship .traineeship .traineeship_info .first_text span {
+.wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info h4 span {
   white-space: nowrap;
 }
 
-.wrapperTraineeship .traineeship .traineeship_info .second_text {
+.wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info .first_text {
   margin-bottom: 29px;
 }
 
-.wrapperTraineeship .traineeship .traineeship_info div {
+.wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info .second_text {
+  margin-bottom: 32px;
+}
+
+.wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info div {
   max-width: 240px;
   padding-bottom: 81px;
 }
 
-.wrapperTraineeship .traineeship .traineeship_info div a {
+.wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info div a {
   color: #fff;
   background: #ff4f00;
   border: 2px solid #ff4f00;
@@ -169,14 +169,14 @@ h4 {
   height: 51px;
 }
 
-.wrapperTraineeship .traineeship .traineeship_info div a:hover {
+.wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info div a:hover {
   color: #ff4f00;
   background: transparent;
   -webkit-transition: background 0.5s ease;
   transition: background 0.5s ease;
 }
 
-.wrapperTraineeship .traineeship .traineeship_info div span {
+.wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info div span {
   height: 20px;
 }
 
@@ -184,32 +184,26 @@ h4 {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 90px 15px 0 15px;
 }
 
 .wrapper_vacancies .topic {
   text-align: center;
 }
 
-.wrapper_vacancies .topic h2,
-.wrapper_vacancies .topic span {
+.wrapper_vacancies .topic p {
   font-family: "open sans";
 }
 
-.wrapper_vacancies .topic .topic_first h2 {
+.wrapper_vacancies .topic .topic_first {
   font-size: 36px;
-  color: #000000;
-  margin: 0 0 14px 0;
-  font-weight: normal;
+  color: #393939;
+  margin: 90px 0 14px 0;
 }
 
 .wrapper_vacancies .topic .topic_second {
-  margin-bottom: 51px;
-}
-
-.wrapper_vacancies .topic .topic_second span {
   font-size: 24px;
-  color: #000000;
+  color: #505050;
+  margin-bottom: 51px;
 }
 
 .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box {
@@ -329,24 +323,23 @@ h4 {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding-top: 80px;
+  border-radius: 7px;
 }
 
-.education h2,
-.education span {
+.education h3,
+.education p {
   font-family: "open sans";
   text-align: center;
   color: #000000;
-  display: block;
 }
 
-.education h2 {
+.education h3 {
   font-size: 36px;
-  margin: 0 0 14px 0;
+  margin: 80px 0 14px 0;
   font-weight: normal;
 }
 
-.education .follow {
+.education p {
   font-size: 24px;
   margin-bottom: 28px;
 }
@@ -361,7 +354,7 @@ h4 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 65px;
+  margin-bottom: 129px;
 }
 
 .education .education_info .info_text {
@@ -370,7 +363,7 @@ h4 {
   margin-top: 18px;
 }
 
-.education .education_info .info_text span {
+.education .education_info .info_text p {
   font-family: "open sans";
   font-weight: lighter;
   font-size: 24px;
@@ -391,141 +384,26 @@ h4 {
   width: 100%;
 }
 
-.wrapper_company {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 65px 0 87px 0;
-}
-
-.wrapper_company h2,
-.wrapper_company span,
-.wrapper_company p {
-  font-family: "open sans";
-  text-align: center;
-  color: #000000;
-  display: block;
-}
-
-.wrapper_company h2 {
-  font-size: 36px;
-  font-weight: normal;
-  margin-bottom: 14px;
-}
-
-.wrapper_company span {
-  font-size: 24px;
-  margin-bottom: 28px;
-}
-
-.wrapper_company .for_counter {
-  padding: 10px 15px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.wrapper_company .for_counter li {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 33.333333%;
-          flex: 0 0 33.333333%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-}
-
-.wrapper_company .for_counter li .title {
-  width: 30px;
-  position: absolute;
-  left: 68px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.wrapper_company .for_counter li .title p {
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-  margin-top: 62px;
-  font-size: 26px;
-}
-
-.wrapper_company .for_counter li .description-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.wrapper_company .for_counter li .description-box span {
-  margin: 0;
-  padding-left: 12px;
-}
-
-.wrapper_company .for_counter li .description-box .number span {
-  font-size: 56px;
-  text-align: left;
-  color: #ff4f00;
-}
-
-.wrapper_company .for_counter li .description-box .number .percent::after {
-  content: "\0025";
-}
-
-.wrapper_company .for_counter li .description-box .description span {
-  font-size: 14px;
-  text-align: left;
-  max-width: 200px;
-}
-
-.wrapper_company .for_counter li .description-box div {
-  width: 200px;
-}
-
 .promises {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 65px 0 87px 0;
 }
 
-.promises h2,
-.promises span {
+.promises h3,
+.promises p {
   font-family: "open sans";
   text-align: center;
   color: #000000;
-  display: block;
 }
 
-.promises h2 {
+.promises h3 {
   font-size: 36px;
   font-weight: normal;
   margin-bottom: 14px;
 }
 
-.promises span {
+.promises p {
   font-size: 24px;
   margin-bottom: 28px;
 }
@@ -539,6 +417,7 @@ h4 {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 173px;
 }
 
 .promises ul li {
@@ -592,7 +471,10 @@ h4 {
   font-family: "open sans";
   font-size: 24px;
   color: #000000;
-  text-align: center;
+}
+
+.promises ul li:nth-child(4) p {
+  margin: 0;
 }
 
 .wrapper_application,
@@ -600,30 +482,26 @@ h4 {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 87px 0 100px 0;
 }
 
-.wrapper_application h2,
+.wrapper_application h3,
 .wrapper_application p,
-.wrapper_application .came,
-.wraper_form h2,
-.wraper_form p,
-.wraper_form .came {
+.wraper_form h3,
+.wraper_form p {
   font-family: "open sans";
   text-align: center;
   color: #000000;
-  display: block;
 }
 
-.wrapper_application h2,
-.wraper_form h2 {
+.wrapper_application h3,
+.wraper_form h3 {
   font-size: 36px;
   font-weight: normal;
   margin-bottom: 14px;
 }
 
-.wrapper_application .came,
-.wraper_form .came {
+.wrapper_application p,
+.wraper_form p {
   font-size: 24px;
   margin-bottom: 28px;
 }
@@ -642,9 +520,7 @@ h4 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  margin-bottom: 200px;
 }
 
 .wrapper_application .application_form form .form-at,
@@ -700,15 +576,6 @@ h4 {
   font-family: "open sans";
   font-weight: lighter;
   color: #b9b9b9;
-}
-
-.wrapper_application .application_form form .form-at .validate-input-at .communication_way .how_text:hover,
-.wrapper_application .application_form form .form-at .validate-input-at .communication_way .how_text_popup:hover,
-.wraper_form .application_form form .form-at .validate-input-at .communication_way .how_text:hover,
-.wraper_form .application_form form .form-at .validate-input-at .communication_way .how_text_popup:hover {
-  color: #ff4f00;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
 }
 
 .wrapper_application .application_form form .form-at .validate-input-at .communication_way .how_text_wiew,
@@ -803,7 +670,7 @@ h4 {
   transition: all 0.3s ease;
   background: #dbdbdb;
   top: 50px;
-  z-index: 1;
+  z-index: 100;
   right: -2px;
   padding: 6px;
 }
@@ -887,85 +754,12 @@ h4 {
           transform: translateY(0);
   opacity: 1;
   display: block;
-  z-index: 100;
+  z-index: 100 !important;
 }
 
 .wrapper_application .application_form form .form-at .validate-input-at .communication_way .wiew2,
 .wraper_form .application_form form .form-at .validate-input-at .communication_way .wiew2 {
   display: none;
-}
-
-.wrapper_application .application_form form .form-at .validate-input-at .custom-select,
-.wraper_form .application_form form .form-at .validate-input-at .custom-select {
-  width: 100%;
-  position: relative;
-}
-
-.wrapper_application .application_form form .form-at .validate-input-at .custom-select span,
-.wraper_form .application_form form .form-at .validate-input-at .custom-select span {
-  position: absolute;
-  font-family: "open sans";
-  font-weight: lighter;
-  color: #b9b9b9;
-  font-size: 16px;
-}
-
-.wrapper_application .application_form form .form-at .validate-input-at .custom-select .select-selected,
-.wrapper_application .application_form form .form-at .validate-input-at .custom-select .select-items,
-.wraper_form .application_form form .form-at .validate-input-at .custom-select .select-selected,
-.wraper_form .application_form form .form-at .validate-input-at .custom-select .select-items {
-  font-family: "open sans";
-  font-weight: lighter;
-  color: #b9b9b9;
-  font-size: 16px;
-}
-
-.wrapper_application .application_form form .form-at .validate-input-at .custom-select .select-selected,
-.wraper_form .application_form form .form-at .validate-input-at .custom-select .select-selected {
-  background: transparent;
-  color: #7a7a7a;
-  min-height: 50px;
-  cursor: pointer;
-}
-
-.wrapper_application .application_form form .form-at .validate-input-at .custom-select .select-items,
-.wraper_form .application_form form .form-at .validate-input-at .custom-select .select-items {
-  position: initial;
-  border: none;
-}
-
-.wrapper_application .application_form form .form-at .validate-input-at .custom-select .select-items .div,
-.wraper_form .application_form form .form-at .validate-input-at .custom-select .select-items .div {
-  font-family: "open sans";
-  font-weight: lighter;
-  color: #b9b9b9;
-  font-size: 16px;
-}
-
-.wrapper_application .application_form form .form-at .validate-input-at .custom-select::after,
-.wraper_form .application_form form .form-at .validate-input-at .custom-select::after {
-  content: "Специальность: *";
-  font-family: "open sans";
-  font-weight: lighter;
-  color: #747474;
-  font-size: 16px;
-  pointer-events: none;
-  position: absolute;
-  top: 16px;
-  left: 20px;
-}
-
-.wrapper_application .application_form form .form-at .validate-input-at .select-text::after,
-.wraper_form .application_form form .form-at .validate-input-at .select-text::after {
-  content: "Специальность: *";
-  font-family: "open sans";
-  font-weight: lighter;
-  color: #7a7a7a;
-  font-size: 14px;
-  pointer-events: none;
-  position: absolute;
-  top: 4px;
-  left: 20px;
 }
 
 .wrapper_application .application_form form .form-at .load_file,
@@ -1009,7 +803,7 @@ h4 {
   z-index: -1;
   font-family: "open sans";
   font-weight: lighter;
-  color: #747474;
+  color: #b9b9b9;
 }
 
 .wrapper_application .application_form form .form-at .data_processing,
@@ -1017,9 +811,8 @@ h4 {
   font-family: "open sans";
   font-weight: lighter;
   font-size: 14px;
-  color: #747474;
+  color: #b9b9b9;
   text-align: left;
-  margin-bottom: 20px;
 }
 
 .wrapper_application .application_form form .form-at .form-at-btn,
@@ -1045,15 +838,10 @@ h4 {
   max-width: 280px;
   width: 100%;
   margin-left: 50px;
-  padding-top: 40px;
 }
 
 .footer_wrapper {
   width: 100%;
-}
-
-.footer_wrapper .footer {
-  padding-top: 100px;
 }
 
 .footer_wrapper .footer .box1 {
@@ -1253,14 +1041,6 @@ h4 {
   min-width: 25px;
 }
 
-.popup_form .wraper_form .application_form form .form-at .v-o_popup .c-s_popup .select-items {
-  position: initial;
-  border: none;
-  min-height: 0;
-  max-height: 195px;
-  overflow-x: auto;
-}
-
 .popup_form .wraper_form .application_form .close_form {
   position: absolute;
   top: 0;
@@ -1317,20 +1097,24 @@ h4 {
   z-index: 10;
 }
 
+.simplebar-placeholder {
+  display: none;
+}
+
 @media (min-width: 600px) and (max-width: 1260px) {
   .wrapper_header .header .contacts {
     padding: 26px 15px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-  .wrapperTraineeship .traineeship {
+  .wrapper_header .header .wrapperTraineeship .traineeship {
     padding: 0 15px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     background-position: 84%;
   }
   .wrapper_vacancies {
-    padding: 90px 15px 0 15px;
+    padding: 0 15px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
@@ -1367,6 +1151,12 @@ h4 {
   }
 }
 
+@media (min-width: 800px) and (max-width: 850px) {
+  .wrapper_header .header .wrapperTraineeship .traineeship {
+    background-position: 94%;
+  }
+}
+
 @media (min-width: 800px) and (max-width: 900px) {
   .promises ul li {
     width: 50%;
@@ -1374,20 +1164,13 @@ h4 {
   }
 }
 
-@media (min-width: 800px) and (max-width: 860px) {
-  .wrapperTraineeship .traineeship {
-    background-position: 99% 81%;
-  }
-  .promises ul li {
-    width: 50%;
-    max-width: 100%;
-  }
-}
-
 @media (min-width: 600px) and (max-width: 800px) {
-  .wrapperTraineeship .traineeship {
-    background-position: 93% 144%;
+  .wrapper_header .header .wrapperTraineeship .traineeship {
+    background-position: 111% 78%;
     background-size: 272px;
+  }
+  .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info h4 {
+    max-width: 317px;
   }
   .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box:nth-child(6) p {
     max-width: 418px;
@@ -1450,54 +1233,55 @@ h4 {
   .wrapper_header .header .contacts .logo img {
     width: 100px;
   }
-  .wrapperTraineeship .traineeship {
-    padding: 0 15px 40px 15px;
+  .wrapper_header .header .wrapperTraineeship .traineeship {
+    padding: 0 15px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     background-size: 30%;
-    background-position: 95% 70%;
+    background-position: 92% 48%;
   }
-  .wrapperTraineeship .traineeship .traineeship_info {
-    padding-top: 40px;
-  }
-  .wrapperTraineeship .traineeship .traineeship_info h1 {
+  .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info h3 {
     font-size: 24px;
+    padding-top: 40px;
     margin-bottom: 10px;
   }
-  .wrapperTraineeship .traineeship .traineeship_info .first_text {
+  .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info h4 {
     font-size: 16px;
     margin-bottom: 40px;
   }
-  .wrapperTraineeship .traineeship .traineeship_info p {
+  .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info p {
     font-size: 14px;
     margin-right: 30px;
     max-width: 260px;
   }
-  .wrapperTraineeship .traineeship .traineeship_info div {
-    max-width: 166px;
-    padding-bottom: 0;
+  .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info div {
+    max-width: 248px;
+    padding-bottom: 21px;
   }
-  .wrapperTraineeship .traineeship .traineeship_info div a {
-    height: 38px;
-    font-size: 14px;
+  .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info div a {
+    height: 50px;
+    font-size: 16px;
   }
-  .wrapperTraineeship .traineeship .traineeship_info .first_text {
+  .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info .first_text {
     margin-bottom: 20px;
   }
-  .wrapperTraineeship .traineeship .traineeship_info .second_text {
+  .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info .second_text {
     margin-bottom: 40px;
   }
+  .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info div {
+    padding-bottom: 40px;
+  }
   .wrapper_vacancies {
-    padding: 40px 15px;
+    padding: 0 15px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-  .wrapper_vacancies .topic .topic_first h2 {
+  .wrapper_vacancies .topic .topic_first {
     font-size: 24px;
-    margin: 0 0 20px 0;
-    color: #000000;
+    margin: 80px 0 20px 0;
+    color: #393939;
   }
-  .wrapper_vacancies .topic .topic_second span {
+  .wrapper_vacancies .topic .topic_second {
     font-size: 16px;
     margin-bottom: 40px;
   }
@@ -1544,16 +1328,13 @@ h4 {
     line-height: 16px;
     margin-bottom: 10px;
   }
-  .education {
-    padding-top: 40px;
-  }
-  .education h2 {
+  .education h3 {
     margin: 0;
     font-size: 24px;
-    margin: 0 0 20px 0;
+    margin: 80px 0 20px 0;
     color: #000000;
   }
-  .education .follow {
+  .education p {
     font-size: 16px;
     margin-bottom: 40px;
     color: #000000;
@@ -1562,13 +1343,13 @@ h4 {
     padding: 0 15px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
   .education .education_info .info_text {
     margin: 0 auto;
     margin-top: 30px;
   }
-  .education .education_info .info_text span {
+  .education .education_info .info_text p {
     font-size: 14px;
     text-align: initial;
   }
@@ -1583,14 +1364,11 @@ h4 {
     max-width: 166px;
     padding-bottom: 30px;
   }
-  .promises {
-    padding: 40px 0;
-  }
-  .promises h2 {
+  .promises h3 {
     font-size: 24px;
-    margin: 0 0 20px 0;
+    margin: 80px 0 20px 0;
   }
-  .promises span {
+  .promises p {
     font-size: 16px;
     margin-bottom: 40px;
   }
@@ -1630,21 +1408,21 @@ h4 {
     width: 50%;
     max-width: 100%;
   }
-  .wrapper_application {
-    padding: 40px 0 0 0;
-  }
-  .wrapper_application h2 {
+  .wrapper_application h3 {
     font-size: 24px;
-    margin: 0px 0 20px 0;
+    margin: 80px 0 20px 0;
     color: #000000;
   }
-  .wrapper_application .came {
+  .wrapper_application p {
     font-size: 16px;
     margin-bottom: 40px;
     color: #000000;
   }
+  .wrapper_application .application_form {
+    margin-bottom: 80px;
+  }
   .wrapper_application .application_form form {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
   }
   .wrapper_application .application_form form .form-at {
     padding: 20px 15px;
@@ -1659,8 +1437,7 @@ h4 {
     bottom: 0;
     width: 164px;
     text-align: initial;
-    left: 0;
-    margin-left: 36px;
+    left: 15%;
   }
   .wrapper_application .application_form form .form-at .data_processing {
     font-size: 16px;
@@ -1683,9 +1460,6 @@ h4 {
   }
   .wrapper_application .application_form form .phone_image {
     display: none;
-  }
-  .footer_wrapper .footer {
-    padding-top: 50px;
   }
   .footer_wrapper .footer .box1 .contacts {
     padding: 30px 15px;
@@ -1718,9 +1492,6 @@ h4 {
   .footer_wrapper .footer .box2 .links p {
     font-size: 14px;
   }
-  .show_popup .wraper_form {
-    padding: 0;
-  }
   .show_popup .wraper_form .application_form .popup_form_box {
     padding: 40px 15px;
   }
@@ -1741,94 +1512,55 @@ h4 {
     left: 11%;
   }
   .show_popup .wraper_form .application_form .popup_form_box .form-at .form-at-btn {
-    max-width: 213px;
-    height: 45px;
-    font-size: 14px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 600px) {
+  .wrapper_header .header .wrapperTraineeship .traineeship {
+    background-position: 94% 36%;
+  }
+  .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info {
+    max-width: 296px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 370px) {
-  .header .wrapperTraineeship .traineeship {
-    background-position: 107% 53%;
+  .wrapper_header .header .wrapperTraineeship .traineeship {
+    background-position: 94% 33%;
+    background-size: 37%;
   }
-  .header .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box:nth-child(6) p {
+  .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info {
+    max-width: 236px;
+  }
+  .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box:nth-child(6) p {
     max-width: 200px;
   }
 }
 
-.test-box {
-  height: 300px;
+@media (min-width: 370px) and (max-width: 400px) {
+  .wrapper_header .header .wrapperTraineeship .traineeship {
+    background-position: 94% 33%;
+    background-size: 37%;
+  }
+  .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info {
+    max-width: 236px;
+  }
+  .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box:nth-child(6) p {
+    max-width: 200px;
+  }
 }
 
-.wrapper-about a,
-.wrapper-about p {
-  font-family: "open sans";
-  font-size: 18px;
-  width: 100%;
-}
-
-.wrapper-about a {
-  text-decoration: none;
-}
-
-.wrapper-about a:hover {
-  text-decoration: none;
-}
-
-.wrapper-about p {
-  color: #000000;
-}
-
-.wrapper-about #top-nav {
-  min-height: 50px;
-}
-
-.wrapper-about #top-nav .drop-box {
-  color: #000000;
-  list-style: none;
-}
-
-.wrapper-about #top-nav .drop-box li {
-  display: inline-block;
-}
-
-.wrapper-about #top-nav .drop-box li a {
-  padding: 0px 32px;
-  background-color: #ff4f00;
-  border: 2px solid #ff4f00;
-  color: #fff;
-  -webkit-transition: 1s ease;
-  transition: 1s ease;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.wrapper-about #top-nav .drop-box li a:hover {
-  background-color: #ffffff;
-  color: #ff4f00;
-}
-
-.wrapper-about .dropdown {
-  position: relative;
-  width: 100%;
-  width: auto;
-}
-
-.wrapper-about .dropdown-menu {
-  position: absolute;
-  line-height: 2;
-  top: 56px;
-  display: block;
-  padding: 15px;
-  border-radius: 7px;
-  background-color: #f3f6f6;
-  -webkit-box-shadow: 1px 1px 16px 6px rgba(0, 0, 0, 0.2);
-          box-shadow: 1px 1px 16px 6px rgba(0, 0, 0, 0.2);
-  display: none;
-}
-
-.wrapper-about .dropdown-menu li {
-  display: block !important;
-  white-space: nowrap;
+@media (min-width: 400px) and (max-width: 450px) {
+  .wrapper_header .header .wrapperTraineeship .traineeship {
+    background-position: 94% 33%;
+    background-size: 37%;
+  }
+  .wrapper_header .header .wrapperTraineeship .traineeship .traineeship_info {
+    max-width: 236px;
+  }
+  .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box:nth-child(6) p {
+    max-width: 200px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
