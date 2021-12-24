@@ -76,14 +76,14 @@ h4 {
   padding: 26px 0;
 }
 
-.wrapper_header .header .contacts .phone p a {
+.wrapper_header .header .contacts .phone span a {
   color: #000000;
   font-size: 16px;
   font-family: "open sans";
   font-weight: 300;
 }
 
-.wrapper_header .header .contacts .phone p a:hover {
+.wrapper_header .header .contacts .phone span a:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -117,7 +117,6 @@ h4 {
 }
 
 .wrapperTraineeship .traineeship .traineeship_info h1,
-.wrapperTraineeship .traineeship .traineeship_info h4,
 .wrapperTraineeship .traineeship .traineeship_info p,
 .wrapperTraineeship .traineeship .traineeship_info a {
   font-family: "open sans";
@@ -390,6 +389,119 @@ h4 {
 
 .education .education_info .info_img img {
   width: 100%;
+}
+
+.wrapper_company {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 65px 0 87px 0;
+}
+
+.wrapper_company h2,
+.wrapper_company span,
+.wrapper_company p {
+  font-family: "open sans";
+  text-align: center;
+  color: #000000;
+  display: block;
+}
+
+.wrapper_company h2 {
+  font-size: 36px;
+  font-weight: normal;
+  margin-bottom: 14px;
+}
+
+.wrapper_company span {
+  font-size: 24px;
+  margin-bottom: 28px;
+}
+
+.wrapper_company .for_counter {
+  padding: 10px 15px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper_company .for_counter li {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.333333%;
+          flex: 0 0 33.333333%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.wrapper_company .for_counter li .title {
+  width: 30px;
+  position: absolute;
+  left: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper_company .for_counter li .title p {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  margin-top: 62px;
+  font-size: 26px;
+}
+
+.wrapper_company .for_counter li .description-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper_company .for_counter li .description-box span {
+  margin: 0;
+  padding-left: 12px;
+}
+
+.wrapper_company .for_counter li .description-box .number span {
+  font-size: 56px;
+  text-align: left;
+  color: #ff4f00;
+}
+
+.wrapper_company .for_counter li .description-box .number .percent::after {
+  content: "\0025";
+}
+
+.wrapper_company .for_counter li .description-box .description span {
+  font-size: 14px;
+  text-align: left;
+  max-width: 200px;
+}
+
+.wrapper_company .for_counter li .description-box div {
+  width: 200px;
 }
 
 .promises {
@@ -1362,12 +1474,12 @@ h4 {
     max-width: 260px;
   }
   .wrapperTraineeship .traineeship .traineeship_info div {
-    max-width: 248px;
+    max-width: 166px;
     padding-bottom: 0;
   }
   .wrapperTraineeship .traineeship .traineeship_info div a {
-    height: 50px;
-    font-size: 16px;
+    height: 38px;
+    font-size: 14px;
   }
   .wrapperTraineeship .traineeship .traineeship_info .first_text {
     margin-bottom: 20px;
@@ -1629,15 +1741,94 @@ h4 {
     left: 11%;
   }
   .show_popup .wraper_form .application_form .popup_form_box .form-at .form-at-btn {
-    font-size: 16px;
+    max-width: 213px;
+    height: 45px;
+    font-size: 14px;
   }
 }
 
-.header .wrapperTraineeship .traineeship {
-  background-position: 107% 53%;
+@media (min-width: 320px) and (max-width: 370px) {
+  .header .wrapperTraineeship .traineeship {
+    background-position: 107% 53%;
+  }
+  .header .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box:nth-child(6) p {
+    max-width: 200px;
+  }
 }
 
-.header .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box:nth-child(6) p {
-  max-width: 200px;
+.test-box {
+  height: 300px;
+}
+
+.wrapper-about a,
+.wrapper-about p {
+  font-family: "open sans";
+  font-size: 18px;
+  width: 100%;
+}
+
+.wrapper-about a {
+  text-decoration: none;
+}
+
+.wrapper-about a:hover {
+  text-decoration: none;
+}
+
+.wrapper-about p {
+  color: #000000;
+}
+
+.wrapper-about #top-nav {
+  min-height: 50px;
+}
+
+.wrapper-about #top-nav .drop-box {
+  color: #000000;
+  list-style: none;
+}
+
+.wrapper-about #top-nav .drop-box li {
+  display: inline-block;
+}
+
+.wrapper-about #top-nav .drop-box li a {
+  padding: 0px 32px;
+  background-color: #ff4f00;
+  border: 2px solid #ff4f00;
+  color: #fff;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.wrapper-about #top-nav .drop-box li a:hover {
+  background-color: #ffffff;
+  color: #ff4f00;
+}
+
+.wrapper-about .dropdown {
+  position: relative;
+  width: 100%;
+  width: auto;
+}
+
+.wrapper-about .dropdown-menu {
+  position: absolute;
+  line-height: 2;
+  top: 56px;
+  display: block;
+  padding: 15px;
+  border-radius: 7px;
+  background-color: #f3f6f6;
+  -webkit-box-shadow: 1px 1px 16px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 16px 6px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+
+.wrapper-about .dropdown-menu li {
+  display: block !important;
+  white-space: nowrap;
 }
 /*# sourceMappingURL=main.css.map */
