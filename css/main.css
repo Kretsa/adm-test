@@ -420,14 +420,13 @@ h4 {
 
 .wrapper_company .for_counter {
   padding: 10px 15px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .wrapper_company .for_counter li {
@@ -440,6 +439,9 @@ h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .wrapper_company .for_counter li .title {
@@ -1583,6 +1585,35 @@ h4 {
     max-width: 166px;
     padding-bottom: 30px;
   }
+  .wrapper_company {
+    padding: 40px 15px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .wrapper_company h2 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+  }
+  .wrapper_company span {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .wrapper_company .for_counter li {
+    padding: 10px;
+  }
+  .wrapper_company .for_counter li .title p {
+    font-size: 20px;
+  }
+  .wrapper_company .for_counter li .description-box .number span {
+    font-size: 48px;
+    padding-left: 10px;
+  }
+  .wrapper_company .for_counter li .description-box .description {
+    max-width: 180px;
+  }
+  .wrapper_company .for_counter li .description-box .description span {
+    font-size: 12px;
+  }
   .promises {
     padding: 40px 0;
   }
@@ -1754,10 +1785,6 @@ h4 {
   .header .wrapper_vacancies .vacancies .accordion_wrapper .accordion_box:nth-child(6) p {
     max-width: 200px;
   }
-}
-
-.test-box {
-  height: 300px;
 }
 
 .wrapper-about a,
